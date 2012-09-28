@@ -31,7 +31,7 @@ MONGO_OBJECTS="servers: 'hostname'"
 
 case "$*" in
     *--list*)
-        mongo $MONGO_DATABASE --host $MONGO_HOSTNAME --quiet --eval "var config = { $MONGO_OBJECTS };" list.js
+        mongo $MONGO_DATABASE --host $MONGO_HOSTNAME --quiet --eval "var config = { $MONGO_OBJECTS };" mongodb.list.js
     ;;
     *--host*)
         echo "{}"
