@@ -2,7 +2,9 @@
 #
 ##############################################################
 # This is a very basic ansible inventory plug-in for using 
-# the configuration from a MongoDB database
+# the configuration from a MongoDB database.
+# In order to use it, please copy this file as /etc/ansible/hosts
+# and also mongodb.list.js as /etc/ansible/mongodb.list.js
 #
 # By default, the plug-in will try to connect to MongoDB
 # on the local server and use the 'test' database.
