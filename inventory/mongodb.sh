@@ -36,4 +36,7 @@ case "$*" in
     *--host*)
         echo "{}"
     ;;
+    *)
+        echo "usage: $0 --list  ..OR.. --host <hostname>"
+    ;;
 esac
